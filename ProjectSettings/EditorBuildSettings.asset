@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/BrainCloudConnect.unity
-    guid: eb7ca8057f43f1d4485ebeab5ddfa716
-  - enabled: 1
-    path: Assets/Scenes/SpaceShooter/Game.unity
-    guid: 40114fdf2bb272b42b59ee6a845c8dd4
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 67afe4df70cd5044ca11832ebed2c22f
   m_configObjects: {}
