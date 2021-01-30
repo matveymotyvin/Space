@@ -68,12 +68,14 @@
     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
     <Compile Include="Assets\Scripts\EnemyManeur.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameQuestion.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\PlayerConroller.cs" />
     <Compile Include="Assets\Scripts\RandomeRatater.cs" />
     <Compile Include="Assets\Scripts\Scenes.cs" />
     <Compile Include="Assets\Scripts\ScrollBackgroung.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\WeaponController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/2019.4.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
