@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Скрипт уничтожает те обьекты которые выходят за границы игрового поля ( выстрелы, астеройды, вражеские корабли), для избежания засорения памяти
+//Границы создаём с помощью 3D куба, при выходе за границы которого уничтожаются клоны игровых объектов
 public class DestroyByBoundary : MonoBehaviour
 {
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)//Получаем на вход данные о координатах Обьектов относительно границ поля, данные координаты настраиваем в Unity в Sample Scene
     {
-        Destroy(other.gameObject);
+        Destroy(other.gameObject);//Уничтожаем данные объекты при выходе за границыи и удаляем их префабы, на вход метод принимает объкт, который надо удалить 
+
     }
 }
